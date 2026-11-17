@@ -18,7 +18,8 @@
     "electron": "^33.0.0",
     "electron-builder": "^25.1.8"
   },
-  "build": {
+  "build": "publish": [{ "provider": "github", "owner": "amorrev", "repo": "Astral", "releaseType": "release" }],
+{
     "appId": "com.astral.launcher",
     "productName": "Astral",
     "directories": {
